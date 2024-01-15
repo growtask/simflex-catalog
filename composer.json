@@ -1,0 +1,42 @@
+{
+  "name": "growtask/simflex-catalog",
+  "description": "Catalog plugin for Simflex",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "keywords": [
+    "php",
+    "simplex-core",
+    "simflex",
+    "catalog"
+  ],
+  "homepage": "https://github.com/growtask/simflex-catalog",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Denis Glushkov",
+      "email": "amkarovec@gmail.com",
+      "homepage": "https://github.com/glushkovds"
+    },
+    {
+      "name": "pf",
+      "homepage": "https://rpgclub.me"
+    }
+  ],
+  "require": {
+    "php": ">=8.0.0",
+    "ext-gd": "*",
+    "ext-pdo": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+  },
+  "suggest": {
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src"
+    }
+  }
+}
+
